@@ -1,0 +1,98 @@
+body {
+  display: block; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.2em; }
+
+.button {
+  background-color: goldenrod; }
+
+.button:nth-child(1) {
+  color: red; }
+
+.button:nth-child(2) {
+  color: green; }
+
+.button:nth-child(3) {
+  color: blue; }
+
+.button:nth-child(4) {
+  color: deeppink; }
+
+.button:nth-child(5) {
+  color: chocalate; }
+
+.fakeshadow {
+  border-style: solid;
+  border-left-width: 4px;
+  border-left-color: #888;
+  border-right-width: 2px;
+  border-right-color: #ccc; }
+
+.demo {
+  margin-left: auto;
+  margin-right: auto; }
+
+.opacity {
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+.opacity-80 {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.container {
+  width: 90vw;
+  height: 700px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: lightblue;
+  border: 1px dashed burlywood;
+  font-size: 12px; }
+  .form {
+    color: bisque; }
+
+.items {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid blue;
+  padding: 20px;
+  font-size: 12px; }
+
+.text_fill {
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: url(../img/hill.jpg);*/
+  background-image: repeating-linear-gradient(-90deg, red 1px, orange 2px, yellow 3px, green 4px, cyan 5px, blue 6px, purple 7px);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.ul {
+  list-style-type: upper-roman; }
+
+.li {
+  font-size: 15px; }
+
+.input {
+  border-radius: 7px;
+  margin: 0px 5px; }
+
+a {
+  text-decoration: none;
+  position: relative; }
+
+.a:after {
+  content: attr(href);
+  position: absolute; }
+
+/*# sourceMappingURL=index.css.map */
