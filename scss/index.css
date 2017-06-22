@@ -1,6 +1,7 @@
 body {
   display: block; }
 
+/*testFFFF*/
 h1 {
   font-size: 2em; }
 
@@ -54,7 +55,9 @@ h3 {
   margin-right: 5vw;
   background-color: lightblue;
   border: 1px dashed burlywood;
-  font-size: 12px; }
+  font-size: 12px;
+  *display: inline;/*浏览器里不会出现该样式*/
+  *zoom: 1; }
   .form {
     color: bisque; }
 
